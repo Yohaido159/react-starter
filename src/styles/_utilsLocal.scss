@@ -1,0 +1,233 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+}
+
+.height-85vh {
+  height: 85vh;
+}
+.is-preview {
+  height: 60vh !important;
+}
+
+.with-hover-scale {
+  transform: scale(1);
+  transition: all 0.23s !important;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+.with-hover-border-full {
+  transition: all 0.2s !important;
+  border: 1px transparent;
+
+  &:hover {
+    border: 2.4px solid rgb(97, 97, 97);
+  }
+}
+.with-hover-outline-full {
+  transition: all 0.2s !important;
+  outline: 1px transparent;
+
+  &:hover {
+    outline: 2.4px solid rgb(97, 97, 97);
+  }
+}
+.with-hover-border {
+  transition: all 1.23s !important;
+  border-top: 1px transparent;
+  border-bottom: 1px transparent;
+
+  &:hover {
+    border-top: 1px solid rgb(97, 97, 97);
+    border-bottom: 1px solid rgb(97, 97, 97);
+  }
+}
+
+.with-hover-color {
+  transition: all 0.23s !important;
+  background-color: inherit !important;
+
+  &:hover {
+    background-color: rgb(255, 255, 255) !important;
+  }
+}
+.with-hover-color-gray {
+  transition: all 0.23s !important;
+  background-color: inherit !important;
+
+  &:hover {
+    background-color: rgb(224, 224, 224) !important;
+  }
+}
+
+.divider-bg-4 {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.question {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: 0 !important;
+  }
+}
+
+.max-content {
+  width: max-content !important;
+}
+
+.card-log {
+  transition: all 0.2s !important;
+  transform: scale(1);
+  opacity: 1;
+
+  &:hover {
+    transform: scale(1.01);
+    opacity: 0.9;
+  }
+}
+
+.category-disable {
+  transition: all 0.2s !important;
+  transform: scale(1) !important;
+  opacity: 0.5 !important;
+
+  &:hover {
+  }
+}
+
+.btn-helf-right {
+  height: 100%;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.btn-helf-left {
+  height: 100%;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.border-black {
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.mw-inherit {
+  max-width: inherit !important;
+}
+
+.minh-inherit {
+  min-height: inherit !important;
+}
+
+//BACKGROUND
+.bg-transparent {
+  background-color: transparent !important;
+}
+.bg-red {
+  background-color: rgb(255, 129, 129) !important;
+}
+.star-color {
+  color: #ffb400 !important;
+}
+//LAYOUT
+.bottom-0 {
+  bottom: 0 !important;
+}
+.top-70 {
+  top: 70px !important;
+  position: relative;
+}
+
+.mtb-1em > * {
+  margin: 1em 0;
+}
+
+.maw-20 {
+  max-width: 20rem;
+}
+
+.h-88 {
+  height: 88% !important;
+}
+
+div[class^="rdw-dropdown-"] {
+  left: 10%;
+  right: unset;
+}
+
+.h-12 {
+  height: 12rem;
+}
+
+.min-content {
+  width: min-content;
+}
+
+.with-a {
+  cursor: pointer;
+
+  &-active {
+    text-decoration: underline white 2px !important;
+  }
+
+  &:hover {
+    text-decoration: underline white 2px !important;
+  }
+
+  &:active {
+    text-decoration: underline white 2px !important;
+  }
+}
+
+.not-hide-control {
+  opacity: 1;
+  transition: all 0.2s;
+}
+.hide-control {
+  opacity: 0;
+  transition: all 0.2s;
+}
+
+.for-video-prev-next {
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    cursor: pointer;
+  }
+}
+
+.opacity-icon {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.public-DraftStyleDefault-block {
+  margin: 0 !important;
+  padding: 0.4em 0 !important;
+}
+
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.paper-large {
+  box-shadow: 0px 3px 20px 20px rgba(0, 0, 0, 0.12), 0px 6px 15px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+}
+
+.connect {
+  path {
+    fill: none;
+    stroke-dasharray: 6, 10; /*adjust this to control the number of dots*/
+    stroke-width: 2px;
+  }
+}

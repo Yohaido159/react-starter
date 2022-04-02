@@ -1,0 +1,39 @@
+@import "./styles/utils";
+@import "./styles/utilsLocal";
+@import "./styles/global";
+@import "./styles/bootstrap_utilies_only/bootstrap";
+@import "./styles/mainStyles/mainStyles";
+@import "./styles/mainStyles/for_editor_draft";
+@import "./styles/mainStyles/for_material-ui";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+:root {
+  --color-blue: #1976d2;
+}
+
+.height-inherit {
+  height: inherit !important;
+  min-height: inherit !important;
+}
