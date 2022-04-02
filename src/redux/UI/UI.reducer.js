@@ -4,12 +4,8 @@ import { createReducer } from "@reduxjs/toolkit";
 import UITypes from "./UI.types";
 import { processSetAddToRedux } from "../../utils/utils";
 
-// import ProgressInModel from "../../reuse/ProgressInModel/ProgressInModel";
 const ProgressInModel = React.lazy(() =>
   import("../../reuse/ProgressInModel/ProgressInModel")
-);
-const CheckDegree = React.lazy(() =>
-  import("../../pages/Degrees/CheckDegree/CheckDegree")
 );
 
 export const INIT_STATE = {
@@ -40,31 +36,6 @@ export const INIT_STATE = {
           stickTop: true,
         },
         withCloseButton: true,
-        style: {},
-      },
-    },
-    baseModel: {
-      status: "close",
-      options: {},
-      payload: {
-        content: {
-          title: "בדיקת נתונים",
-          actions: [
-            {
-              type: "comp",
-              comp: () => <CheckDegree />,
-              size: 12,
-            },
-          ],
-        },
-        payload: {
-          courseId: "courseId",
-        },
-        config: {
-          stickTop: true,
-        },
-        withCloseButton: true,
-        // withoutClickClose: true,
         style: {},
       },
     },
